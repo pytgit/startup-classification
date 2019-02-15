@@ -8,7 +8,7 @@ This can help potential investors or employees to look out factors to assess a s
 [Crunchbase 2013 Snapshot © 2013](https://data.crunchbase.com/docs/2013-snapshot)
 
 ## Code at Github
-Here is the github repo for this project: [link](https://github.com/pytgit/startup-classifcation)
+Here is the github repo for this project: [link](https://github.com/pytgit/startup-classification)
 
 ## Methodology Used
 1. From the [Crunchbase 2013 snapshot data](https://data.crunchbase.com/docs/2013-snapshot) site:
@@ -19,10 +19,12 @@ Here is the github repo for this project: [link](https://github.com/pytgit/start
 <p align="center">
   <img width="1000" height="300" src="./img/data_wrangling.png">
 </p>
+
 [(code here)](https://github.com/pytgit/startup-classification/blob/master/Clean%20data%20and%20feature%20engineering.ipynb)
+
 3. Predictor classes are highly imbalanced, and the data was resampled for better model fitting:
 <p align="center">
-  <img width="700" height="300" src="./img/imbalance.png">
+  <img width="700" height="400" src="./img/imbalance.png">
 </p>
 4. Different sampling methods were experimented with, including random undersampling, random oversampling. SMOTEENN was selected to in the end because it yielded best results.
 4. Tried multiple classifiers: KNN, Logistic Regression, Gradient Boosting, Naive Bayes, Random Forest. Gradient Boosting yielded the best initial results, so further parameter tweaking was attempted.
@@ -40,11 +42,11 @@ Here is the github repo for this project: [link](https://github.com/pytgit/start
 ## Results
 * Gradient Boosting yielded the best F1-macro score of 0.43 on test data set
 <p align="center">
-  <img width="700" height="300" src="./img/model_results.png">
+  <img width="700" height="500" src="./img/model_results.png">
 </p>
 * Model heavily biased towards ‘operating’ status prediction. See confusion matrix below:
 <p align="center">
-  <img width="700" height="300" src="./img/confmat.png">
+  <img width="700" height="500" src="./img/confmat.png">
 </p>
 * See Jupyter notebook for steps to get to results. [(code here)](https://github.com/pytgit/startup-classification/blob/master/Model%20training.ipynb)
 
