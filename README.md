@@ -8,7 +8,7 @@ This can help potential investors or employees to look out factors to assess a s
 [Crunchbase 2013 Snapshot © 2013](https://data.crunchbase.com/docs/2013-snapshot)
 
 ## Code at Github
-Here is the github repo for this project: [link](https://github.com/pytgit/startup_classifcation)
+Here is the github repo for this project: [link](https://github.com/pytgit/startup-classifcation)
 
 ## Methodology Used
 1. From the [Crunchbase 2013 snapshot data](https://data.crunchbase.com/docs/2013-snapshot) site:
