@@ -42,13 +42,14 @@ Here is the github repo for this project: [link](https://github.com/pytgit/start
 ## Results
 * Gradient Boosting yielded the best F1-macro score of 0.43 on test data set
 <p align="center">
-  <img width="700" height="500" src="./img/model_results.png">
+  <img width="500" height="400" src="./img/model_results.png">
 </p>
 * Model heavily biased towards ‘operating’ status prediction. See confusion matrix below:
 <p align="center">
-  <img width="700" height="500" src="./img/confmat.png">
+  <img width="600" height="500" src="./img/confmat.png">
 </p>
-* See Jupyter notebook for steps to get to results. [(code here)](https://github.com/pytgit/startup-classification/blob/master/Model%20training.ipynb)
+* See Jupyter notebook for steps to get to results.
+[(code here)](https://github.com/pytgit/startup-classification/blob/master/Model%20training.ipynb)
 
 ## Conclusions
 * Funding information have some but not strong predicting power for predicting close, IPO, or acquired statuses
